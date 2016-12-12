@@ -1,0 +1,58 @@
+.competencies {
+  width: 100%;
+  background-color: white;
+  height: 32vh;
+  border-bottom: 10px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  color: black;
+  border: 2px solid black;
+  position: relative;
+}
+
+.competencies-details {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  justify-content: center;
+  p {
+    font-weight: bold;
+    color: #1758a7
+  }
+}
+
+
+.competencies-details-logo {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.competencies-over {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background: white;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.competencies:hover .competencies-over {
+  opacity: 1;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 10px;
+}
+
+.competencies:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
