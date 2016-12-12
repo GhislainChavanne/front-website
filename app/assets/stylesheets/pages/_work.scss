@@ -3,13 +3,14 @@
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 5px;
-  width: 49%;
+  width: 47%;
   height: 100vh;
   background-color: #f5f5f1;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
   position: relative;
+  border: 3px solid #00262b;
 }
 
 
@@ -17,23 +18,42 @@
   width: 100%;
   background-color: white;
   height: 100vh;
-  border-bottom: 10px solid #f5f5f1;
-  padding-left: 20px;
   color: black;
   position: relative;
-  border: 2px solid black;
 }
 
-.contact {
-  width: 100%;
-  background-color: white;
-  height: 32vh;
-  border-bottom: 10px solid white;
+.mission {
+  width: 90%;
+  margin: auto;
   display: flex;
+  flex-flow: column;
   align-items: center;
-  justify-content: center;
-  padding-left: 20px;
-  color: black;
-  border: 2px solid black;
-  position: relative;
+  justify-content: space-between;
+  margin-top: 30px;
 }
+
+.mission i {
+  font-size: 50px;
+  text-align: left;
+  color: #00262b;
+}
+
+.mission-details {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.text-mission {
+  width: 80%;
+  text-align: justify;
+  text-justify: inter-word;
+  h4 {
+    text-align: right;
+  }
+}
+

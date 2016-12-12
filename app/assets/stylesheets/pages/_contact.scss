@@ -1,0 +1,39 @@
+.contact {
+  width: 100%;
+  background-color: white;
+  height: 32vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  color: black;
+  position: relative;
+  border: 3px solid #00262b;
+}
+
+.contact-over {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background: white;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.contact:hover .contact-over {
+  opacity: 1;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 10px;
+}
+
+.contact:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}

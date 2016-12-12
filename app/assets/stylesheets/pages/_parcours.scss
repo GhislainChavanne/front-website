@@ -1,36 +1,26 @@
-.competencies {
+.parcours {
   width: 100%;
   background-color: white;
   height: 32vh;
-  border-bottom: 10px solid white;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 20px;
   color: black;
-  border: 2px solid black;
   position: relative;
+  border: 3px solid #00262b;
 }
 
-.competencies-details {
-  display: flex;
-  flex-flow: row;
-  width: 100%;
-  justify-content: center;
-  p {
-    font-weight: bold;
-    color: #1758a7
-  }
-}
-
-
-.competencies-details-logo {
-  margin-left: 20px;
-  margin-right: 20px;
+.i-top {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 40px;
+  color: #00262b;
 }
 
 
-.competencies-over {
+.parcours-over {
   display: flex;
   position: absolute;
   flex-direction: column;
@@ -43,16 +33,19 @@
   background: white;
   opacity: 0;
   transition: opacity 0.4s ease;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #00262b;
+  color: white;
 }
 
-.competencies:hover .competencies-over {
+.parcours:hover .parcours-over {
   opacity: 1;
   text-align: justify;
   text-justify: inter-word;
-  padding: 10px;
 }
 
-.competencies:hover {
+.parcours:hover {
   cursor: pointer;
   opacity: 0.9;
 }
