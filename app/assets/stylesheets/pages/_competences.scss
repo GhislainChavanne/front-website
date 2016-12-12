@@ -22,10 +22,15 @@
 .competences-details-logo {
   margin-left: 20px;
   margin-right: 20px;
+  i {
+    font-size: 100px;
+    color: white;
+  }
 }
 
 
 .competences-over {
+  color: white;
   display: flex;
   position: absolute;
   flex-direction: column;
@@ -35,9 +40,12 @@
   bottom: 0px;
   left: 0;
   right: 0;
-  background: white;
+  background-color: #00262b;
   opacity: 0;
   transition: opacity 0.4s ease;
+  i {
+    color: white;
+  }
 }
 
 .competences:hover .competences-over {
