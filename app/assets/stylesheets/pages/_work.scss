@@ -13,6 +13,13 @@
   border: 3px solid #00262b;
 }
 
+@media screen and (max-width: 841px) {
+  .work {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  }
+}
 
 .work1 {
   width: 100%;
@@ -30,13 +37,13 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 30px;
-}
-
-.mission i {
+  i {
   font-size: 50px;
   text-align: left;
   color: #00262b;
+  }
 }
+
 
 .mission-details {
   width: 100%;
@@ -57,3 +64,56 @@
   }
 }
 
+@media screen and (max-width: 1324px) {
+  .mission {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1198px) {
+  .text-mission p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .text-mission p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 836px) {
+  .mission i {
+  font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 841px) {
+  .text-mission p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .text-mission p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .text-mission p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .text-mission h4 {
+    font-size: 15px;
+  }
+}
