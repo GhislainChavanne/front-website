@@ -26,16 +26,12 @@
   transition: opacity 0.4s ease;
   background-color: #00262b;
   color: white;
-  i {
-    color: white;
-  }
 }
 
 .contact:hover .contact-over {
   opacity: 1;
   text-align: justify;
   text-justify: inter-word;
-  padding: 10px;
 }
 
 .contact:hover {

@@ -13,10 +13,11 @@
 
 .competences-details {
   position: absolute;
-  bottom: 1px;
+  bottom: 5px;
+  right: 1px;
   display: flex;
   flex-flow: row;
-  width: 100%;
+  width: 150px;
   justify-content: space-around;
   i {
     font-size: 40px;
@@ -38,9 +39,6 @@
   transition: opacity 0.4s ease;
   background-color: #00262b;
   color: white;
-  i {
-    color: white;
-  }
   p {
   padding-left: 30px;
   padding-right: 30px;
