@@ -15,16 +15,11 @@
     <meta name="description" content="<%= meta_description %>">
 
     <!-- Facebook Open Graph data -->
-    <meta property="og:title" content="<%= meta_title %>" />
+    <meta property="og:title" content="<%= @title %>" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="<%= image_url(meta_image) %>" />
-    <meta property="og:description" content="<%= meta_description %>" />
-    <meta property="og:site_name" content="<%= meta_title %>" />
-
-    <!-- Google+ Schema.org markup -->
-    <meta itemprop="name" content="<%= meta_title %>">
-    <meta itemprop="description" content="<%= meta_description %>">
-    <meta itemprop="image" content="<%= image_url(meta_image) %>">
+    <meta property="og:description" content="<%= @title %>" />
+    <meta property="og:site_name" content="<%= @title %>" />
 
   </head>
 
