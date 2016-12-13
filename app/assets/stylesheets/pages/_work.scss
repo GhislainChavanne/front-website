@@ -37,13 +37,17 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 30px;
-  i {
-  font-size: 50px;
-  text-align: left;
-  color: #00262b;
-  }
 }
 
+.mission-logo {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  font-size: 40px;
+  justify-content: center;
+  padding-top: 40px;
+  margin-right: 20px;
+}
 
 .mission-details {
   width: 100%;
@@ -56,7 +60,7 @@
 }
 
 .text-mission {
-  width: 80%;
+  width: 90%;
   text-align: justify;
   text-justify: inter-word;
   h4 {

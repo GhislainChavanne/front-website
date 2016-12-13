@@ -42,18 +42,19 @@
   position: absolute;
   color: white;
   top: 0;
-  right: 20px;
+  right: 30px;
   height: 120px;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
+  cursor: pointer;
 }
 
 .pic {
   position: absolute;
   color: white;
   top: 10px;
-  left: 20px;
+  left: 30px;
   height: 120px;
 }
 
@@ -70,7 +71,7 @@
   color: white;
   overflow: hidden;
   top: 60px;
-  left: 175px;
+  left: 177px;
 }
 
 .visible {
