@@ -5,19 +5,19 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= favicon_link_tag 'zguy.png' %>
+    <title><%= "Ghislain - Web developer" %></title>
     <link href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro:200|Oswald|Roboto|Roboto+Condensed|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 
-    <title>Ghislain - Web developer</title>
     <meta name="description" content="Ghislain - Web developer">
 
     <!-- Facebook Open Graph data -->
     <meta property="og:title" content="Ghislain - Web developer" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="Ghislain - Web developer" />
-    <meta property="og:image" content="zguy.png" />
+    <meta property="og:image" content="<%= og_image_path %>" />
     <meta property="og:description" content="Ghislain - Web developer" />
     <meta property="og:site_name" content="Ghislain - Web developer" />
 
