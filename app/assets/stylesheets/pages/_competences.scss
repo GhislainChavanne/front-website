@@ -12,25 +12,18 @@
 }
 
 .competences-details {
+  position: absolute;
+  bottom: 1px;
   display: flex;
   flex-flow: row;
   width: 100%;
-  justify-content: center;
-}
-
-
-.competences-details-logo {
-  margin-left: 20px;
-  margin-right: 20px;
+  justify-content: space-around;
   i {
-    font-size: 100px;
-    color: white;
+    font-size: 40px;
   }
 }
 
-
 .competences-over {
-  color: white;
   display: flex;
   position: absolute;
   flex-direction: column;
@@ -40,11 +33,17 @@
   bottom: 0px;
   left: 0;
   right: 0;
-  background-color: #00262b;
+  background: white;
   opacity: 0;
   transition: opacity 0.4s ease;
+  background-color: #00262b;
+  color: white;
   i {
     color: white;
+  }
+  p {
+  padding-left: 30px;
+  padding-right: 30px;
   }
 }
 
@@ -59,3 +58,5 @@
   cursor: pointer;
   opacity: 0.9;
 }
+
+
