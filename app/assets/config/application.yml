@@ -1,0 +1,2 @@
+production:
+  HOST: 'front-website.herokuapp.com'
