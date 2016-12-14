@@ -1,0 +1,2 @@
+production:
+  HOST: 'https://front-website.herokuapp.com/' # ou 'votresite.herokuapp.com'
