@@ -1,12 +1,20 @@
 .modal-details {
   margin-top: 115px;
   border-radius: 4px;
+  position: relative;
   h3 {
     background-color: #2EA1D9;
     padding-top: 20px;
     color: white;
     padding-bottom: 20px;
     margin-top: 0px;
+  }
+  i {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: white;
+    font-size: 30px;
   }
 }
 
@@ -17,4 +25,12 @@
   padding-right: 50px;
   padding-top: 20px;
   padding-bottom: 50px;
+}
+
+a:focus {outline:0;}
+
+.mail {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }

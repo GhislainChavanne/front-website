@@ -32,18 +32,18 @@
 
 <div class="homepage">
   <div class="description">
-    <div class="parcours">
-      <i class="fa fa-graduation-cap i-top" aria-hidden="true"></i>
-      <a href="#" data-toggle="modal" data-target=".modal-parcours" style="text-decoration: none;">
+    <a href="#" data-toggle="modal" data-target=".modal-parcours" style="text-decoration: none;">
+      <div class="parcours">
+        <i class="fa fa-graduation-cap i-top" aria-hidden="true"></i>
         <h2 class="text-center">MON PARCOURS</h2>
-      </a>
-    </div>
-    <div class="competences">
-      <i class="fa fa-keyboard-o i-top" aria-hidden="true"></i>
-      <a href="#" data-toggle="modal" data-target=".modal-competences" style="text-decoration: none;">
+      </div>
+    </a>
+    <a href="#" data-toggle="modal" data-target=".modal-competences" style="text-decoration: none;">
+      <div class="competences">
+        <i class="fa fa-keyboard-o i-top" aria-hidden="true"></i>
         <h2 class="text-center">MES COMPÉTENCES WEB</h2>
-      </a>
-    </div>
+      </div>
+    </a>
     <div class="contact">
     <i class="fa fa-envelope-open i-top" aria-hidden="true"></i>
       <h2 class="text-center title-style">ME CONTACTER</h2>
@@ -103,9 +103,19 @@
 <div class="modal fade modal-parcours" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content modal-details">
+    <i class="fa fa-hand-spock-o" aria-hidden="true"></i><i class="fa fa-hand-spock-o" aria-hidden="true"></i>
       <h3 class="text-center">MON PARCOURS</h3>
       <div class="content-modal">
       <p>Diplômé de l’École Supérieure de Commerce de Rennes (ESC Rennes), j'ai suivi la formation de développement web au sein du "Wagon". Créatif et passionné, je suis disponible pour vous accompagner dans la réalisation de votre projet 2.0 ! </p>
+      <a href="mailto:gh.chavanne@gmail.com?subject=Front-End development !" target="_blank">
+        <div class="mail">
+          <h4 style="font-weight: bolder; font-style: italic; color: #00262b; cursor: pointer;">Me contacter</h4>
+        </div>
+      </a>
+      <div class="competences-details text-center">
+      <%= image_tag("wagon.png", :class => "avatar-car text-center") %>
+      <%= image_tag("esc.00_jpg_srz", :class => "avatar-car text-center") %>
+      </div>
       </div>
     </div>
   </div>
@@ -114,9 +124,15 @@
 <div class="modal fade modal-competences" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content modal-details">
+    <i class="fa fa-hand-spock-o" aria-hidden="true"></i><i class="fa fa-hand-spock-o" aria-hidden="true"></i>
       <h3 class="text-center">MES COMPÉTENCES WEB</h3>
       <div class="content-modal">
         <p>Constamment à l'écoute des nouvelles tendances en front, j'ai développé des compétences solides en HTML5, CSS3, JAVASCRIPT, Intégration web etc. Je suis curieux et à l'écoute et les challenges ne me font pas peur !</p>
+        <a href="mailto:gh.chavanne@gmail.com?subject=Front-End development !" target="_blank">
+          <div class="mail">
+            <h4 style="font-weight: bolder; font-style: italic; color: #00262b; cursor: pointer;">Me contacter</h4>
+          </div>
+        </a>
         <div class="competences-details text-center">
           <%= image_tag("hjc.png", :class => "avatar-large text-center") %>
         </div>
