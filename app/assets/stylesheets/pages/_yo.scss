@@ -1,0 +1,27 @@
+.yo {
+  width: 100%;
+  background-color: white;
+  height: 33vh;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgba(0,0,0,.09);
+  border-radius: 3px;
+  border-bottom: 20px solid #00262b;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.social {
+  position: absolute;
+  width: 30%;
+  color: #00262b;
+  top: 105px;
+  right: 58px;
+  font-size: 20px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  cursor: pointer;
+}
