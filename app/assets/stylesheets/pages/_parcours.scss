@@ -44,6 +44,12 @@
   }
 }
 
+@media screen and (max-width: 1080px) {
+  .parcours-over p {
+    font-size: 13px;
+  }
+}
+
 .parcours:hover .parcours-over {
   opacity: 1;
   text-align: justify;

@@ -38,6 +38,18 @@
   }
 }
 
+@media screen and (max-width: 1080px) {
+  .competences-over p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 526px) {
+  .competences-over p {
+    font-size: 11px;
+  }
+}
+
 .competences:hover .competences-over {
   opacity: 1;
   text-align: justify;
