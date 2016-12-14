@@ -5,6 +5,8 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= favicon_link_tag 'zguy.png' %>
+    <%= metamagic %>
+
     <link href="https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro:200|Oswald|Roboto|Roboto+Condensed|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono" rel="stylesheet">
@@ -13,11 +15,6 @@
 
     <title><%= yield(:page_title) %></title>
 
-    <!-- Facebook Open Graph data -->
-    <meta property="og:title" content="<%= yield(:page_title) %>" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="<%= @title %>" />
-    <meta property="og:site_name" content="<%= @title %>" />
 
   </head>
 
