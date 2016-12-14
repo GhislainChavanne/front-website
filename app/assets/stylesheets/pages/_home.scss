@@ -39,32 +39,16 @@
   }
 }
 
-.name {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  width: 400px;
-  align-items: center;
-  letter-spacing: 2px;
-  margin-top: 10px;
-  height: 80px;
-  position: relative;
-}
-
-
 .content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   position: absolute;
   transform: translate(-50%, -50%);
   font-size: 20px;
   line-height: 40px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
   color: white;
   overflow: hidden;
   top: 38px;
-  left: 177px;
+  left: 455px;
 }
 
 .visible {
