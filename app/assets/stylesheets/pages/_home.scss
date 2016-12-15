@@ -9,47 +9,68 @@
 @media screen and (max-width: 841px) {
   .homepage {
   flex-flow: column;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   }
 }
 
-
 .ghislain {
-  width: 100%;
+  max-width: 100%;
   height: 70px;
   margin: auto;
   background-color: #00262b;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
-  flex-flow: row;
-  justify-content: space-around;
+  justify-content: space-between;
   color: white;
   position: relative;
-  h1 {
-    position: absolute;
-    left: 20px;
-    top: -8px;
-    font-weight: ligther;
-  }
+  padding-left: 57px;
+  padding-right: 57px;
   i {
     font-size: 50px;
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    font-weight: ligther;
+  }
+}
+
+@media screen and (max-width: 832px) {
+  .ghislain h1 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .ghislain {
+    h1 {
+    font-size: 16px;
+    }
+    i {
+    display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .ghislain h1 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .content {
+    margin-left: 30px;
   }
 }
 
 .content {
-  position: absolute;
   transform: translate(-50%, -50%);
   font-size: 20px;
   line-height: 40px;
   font-family: 'Ubuntu Condensed', sans-serif;
   color: white;
   overflow: hidden;
-  top: 38px;
-  left: 455px;
+  margin-top: 50px;
+  margin-left: -100px;
 }
 
 .visible {

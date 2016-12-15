@@ -26,14 +26,6 @@
   }
 }
 
-@media screen and (min-width: 200px) and (max-width: 841px) {
-  .work {
-  width: 80%;
-  margin: auto;
-  }
-}
-
-
 .work1 {
   width: 100%;
   background-color: white;
@@ -89,8 +81,10 @@
   text-justify: inter-word;
   h4 {
     text-align: right;
+    margin-bottom: 15px;
   }
 }
+
 
 @media screen and (max-width: 1324px) {
   .mission {
@@ -128,20 +122,28 @@
   }
 }
 
-@media screen and (max-width: 601px) {
-  .text-mission p {
-    font-size: 14px;
+@media screen and (max-width: 732px) {
+  .text-mission {
+    p {
+    font-size: 9px;
+    line-height: 150%;
+    text-align: none;
+    }
+    h4 {
+      font-size: 12px;
+      margin-bottom: 0px;
+    }
   }
 }
 
-@media screen and (max-width: 520px) {
-  .text-mission p {
-    font-size: 11px;
+@media screen and (max-width: 732px) {
+  .work1 {
+    border-bottom: none;
+  }
+  h2 {
+    font-size: 13px;
+    margin-bottom: 0px;
   }
 }
 
-@media screen and (max-width: 520px) {
-  .text-mission h4 {
-    font-size: 15px;
-  }
-}
+
