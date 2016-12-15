@@ -2,6 +2,7 @@
 <html>
   <head>
     <%= csrf_meta_tags %>
+    <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= favicon_link_tag 'zguy.png' %>
@@ -12,7 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 
-    <title><%= yield(:page_title) %></title>
+    <title><%= meta_title %></title>
+    <meta name="description" content="<%= meta_description %>">
 
     <!-- Facebook Open Graph data -->
     <meta property="og:title" content="<%= meta_title %>" />
