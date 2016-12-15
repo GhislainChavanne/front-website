@@ -8,6 +8,8 @@
   border-bottom: 20px solid #00262b;
   position: relative;
   display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
   align-items: center;
   flex-flow: row;
   justify-content: center;
@@ -17,8 +19,8 @@
   position: absolute;
   width: 30%;
   color: #00262b;
-  top: 115px;
-  right: 58px;
+  bottom: 0px;
+  right: 3px;
   font-size: 20px;
   display: flex;
   flex-flow: row;
